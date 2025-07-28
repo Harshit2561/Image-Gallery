@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Gallery with Filters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+
+  <div class="buttons">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('city')">City</button>
+    <button onclick="filterImages('animals')">Animals</button>
+  </div>
+
+  <div class="gallery">
+    <img src="images/nature (1).jpg" class="nature">
+    <img src="images/nature (2).jpg" class="nature">
+    <img src="images/nature (3).jpg" class="nature">
+    <img src="images/city (1).jpg" class="city">
+    <img src="images/city (2).jpg" class="city">
+    <img src="images/animal (1).jpg" class="animals">
+    <img src="images/animal (2).jpg" class="animals">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
